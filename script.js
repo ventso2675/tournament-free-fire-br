@@ -1,0 +1,1 @@
+function send(){let m=`Bonjour, j'ai payé le droit d'inscription.%0ANom: ${nom.value}%0AUID: ${uid.value}%0ATéléphone: ${tel.value}%0ARéférence: ${ref.value}`;window.open("https://wa.me/261331232130?text="+m,"_blank");}
